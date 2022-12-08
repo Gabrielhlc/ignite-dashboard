@@ -23,6 +23,7 @@ export default function UserList() {
                             size="sm"
                             fontSize="sm"
                             colorScheme="pink"
+                            cursor="pointer"
                             leftIcon={<Icon as={RiAddLine} fontSize="20" />}
                         >
                             Criar novo
@@ -58,6 +59,7 @@ export default function UserList() {
                                         size="sm"
                                         fontSize="sm"
                                         colorScheme="purple"
+                                        cursor="pointer"
                                         leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
                                     >
                                         Editar
